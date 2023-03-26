@@ -32,6 +32,10 @@ img {
     width: 100%;
 }
 
+.logo {
+    height: 40px;
+}
+
 section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -158,4 +162,11 @@ section {
     display: inline-grid;
     align-content: center;
     text-align: center;
+}
+
+/* Team */
+.team-member img {
+    max-width: 140px;
+    box-shadow: -10px -10px 0 #F58d17;
+    border-radius: 100px;
 }
