@@ -101,3 +101,11 @@ section {
     height: 70px;
     margin: auto;
 }
+
+/* About */
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #F58d17;
+}
