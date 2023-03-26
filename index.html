@@ -17,7 +17,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white shadow py-3">
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">Spice Restaurant</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -53,27 +53,51 @@
         </div>
     </nav>
     <!-- Slider -->
-    <div id="carouselExample" class="carousel slide">
+    <div id="hero-slider" class="carousel slide">
         <div class="carousel-inner">
             <!-- slider one -->
-            <div class="carousel-item active vh-100 bg-dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
+            <div class="carousel-item active vh-100 text-center bg-cover slider-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
                             <h6 class="text-white">Welcome To Spice Restaurant</h6>
-                            <h1 class="display-1 text-white">Lorem ipsum dolor sit amet.</h1>
+                            <h1 class="display-1 text-white fw-bold">Butter Chicken</h1>
                             <a href="#" class="btn btn-brand">Reservation</a>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <!-- slider two -->
+            <div class="carousel-item active vh-100 text-center bg-cover slider-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <h6 class="text-white">Welcome To Spice Restaurant</h6>
+                            <h1 class="display-1 text-white fw-bold">Chicken Stew</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slider two -->
+            <div class="carousel-item active vh-100 text-center bg-cover slider-3">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <h6 class="text-white">Welcome To Spice Restaurant</h6>
+                            <h1 class="display-1 text-white fw-bold">Hyderabadi Biryani</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-slider" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-slider" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
