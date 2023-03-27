@@ -170,3 +170,42 @@ section {
     box-shadow: -10px -10px 0 #F58d17;
     border-radius: 100px;
 }
+
+/* Reviews */
+#reviews {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover3.jpg);
+}
+
+.review img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.review-icon {
+    font-size: 74px;
+    color: #F58d17;
+    line-height: 1;
+}
+
+.review .stars {
+    color: #F58d17;
+}
+
+#reviews .carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+/* Reservation */
+#reservation .form-control {
+    border-radius: 0;
+}
+
+#reservation .form-control:focus {
+    box-shadow: none;
+    border-color: #F58d17;
+}
+
+#reservation input.form-control {
+    height: 47px;
+}
